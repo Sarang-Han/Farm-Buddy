@@ -1,0 +1,547 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "MainScreen",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "Main_Wallpaper",
+            "Width": 800,
+            "Height": 480,
+            "LockPosition": true,
+            "RelativeFilename": "__generated\\light_theme_images_backgrounds_800x480_shattered_rain.png"
+          },
+          {
+            "Type": "Box",
+            "Name": "Main_PlantState",
+            "X": 39,
+            "Y": 103,
+            "Width": 332,
+            "Height": 333,
+            "Color": {
+              "Red": 197,
+              "Green": 224,
+              "Blue": 198
+            },
+            "Alpha": 188
+          },
+          {
+            "Type": "Box",
+            "Name": "Main_SensorBackground",
+            "X": 398,
+            "Y": 106,
+            "Width": 367,
+            "Height": 164,
+            "Color": {
+              "Red": 197,
+              "Green": 224,
+              "Blue": 198
+            },
+            "Alpha": 188
+          },
+          {
+            "Type": "Box",
+            "Name": "Main_Sensor1",
+            "X": 398,
+            "Y": 106,
+            "Width": 367,
+            "Height": 41,
+            "Color": {
+              "Red": 235,
+              "Green": 235,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Main_TextSensor",
+            "X": 415,
+            "Y": 114,
+            "Width": 77,
+            "Height": 24,
+            "TextId": "__SingleUse_RQCW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 74,
+              "Green": 102,
+              "Blue": 75
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Box",
+            "Name": "Main_Upper_Background",
+            "X": 31,
+            "Y": 23,
+            "Width": 734,
+            "Height": 52,
+            "Color": {
+              "Red": 193,
+              "Green": 222,
+              "Blue": 194
+            },
+            "Alpha": 233
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "Main_ClockUpper",
+            "X": 624,
+            "Y": 33,
+            "Width": 126,
+            "Height": 33,
+            "TextColor": {
+              "Red": 74,
+              "Green": 102,
+              "Blue": 75
+            },
+            "TextId": "__SingleUse_LWT5",
+            "DisplaySeconds": true,
+            "DisplayLeadingZeroForHourIndicator": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Main_TextUpper_Farmbuddy",
+            "X": 293,
+            "Y": 31,
+            "Width": 227,
+            "Height": 36,
+            "TextId": "__SingleUse_H0ZL",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Main_TextUpper_Quest",
+            "X": 47,
+            "Y": 38,
+            "Width": 147,
+            "Height": 24,
+            "TextId": "__SingleUse_GFTR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 74,
+              "Green": 102,
+              "Blue": 75
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "Main_ImageThermo",
+            "X": 421,
+            "Y": 158,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "__generated\\icon_theme_images_device_thermostat_40_40_C43535.svg.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Main_TextTemperature",
+            "X": 467,
+            "Y": 166,
+            "Width": 159,
+            "Height": 24,
+            "TextId": "__SingleUse_L6QC",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "Main_ImageIlluminance",
+            "X": 419,
+            "Y": 216,
+            "Width": 40,
+            "Height": 40,
+            "RelativeFilename": "__generated\\icon_theme_images_image_brightness_6_40_40_F0C14A.svg.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Main_TextIlluminance",
+            "X": 472,
+            "Y": 228,
+            "Width": 148,
+            "Height": 24,
+            "TextId": "__SingleUse_Z61T",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "X": 39,
+            "Y": 362,
+            "Width": 332,
+            "Height": 76,
+            "Color": {
+              "Red": 235,
+              "Green": 235,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Main_TextBuddystate",
+            "X": 58,
+            "Y": 388,
+            "Width": 197,
+            "Height": 24,
+            "TextId": "__SingleUse_NJYO",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 74,
+              "Green": 102,
+              "Blue": 75
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "boxWithBorder1",
+            "X": 398,
+            "Y": 297,
+            "Width": 367,
+            "Height": 142,
+            "Color": {
+              "Red": 235,
+              "Green": 235,
+              "Blue": 235
+            },
+            "BorderColor": {
+              "Red": 132,
+              "Green": 159,
+              "Blue": 133
+            },
+            "BorderSize": 3,
+            "Alpha": 233
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "happy_flower",
+            "X": 66,
+            "Y": 120,
+            "Width": 279,
+            "Height": 264,
+            "Filename": "sad_flower.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph1",
+            "X": 400,
+            "Y": 309,
+            "Width": 365,
+            "Height": 118,
+            "DataSeed": -1535987233,
+            "NumberOfValues": 100,
+            "MaxY": 100.0,
+            "Precision": "1",
+            "LastIndex": 99,
+            "XAxisScale": 1.0,
+            "InsertRandomValues": true,
+            "GraphType": "GraphWrapClear",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 20,
+                  "Green": 151,
+                  "Blue": 197
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "ControlScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "Control_Wallpaper",
+            "Width": 800,
+            "Height": 480,
+            "LockPosition": true,
+            "RelativeFilename": "__generated\\light_theme_images_backgrounds_800x480_shattered_rain.png"
+          },
+          {
+            "Type": "Box",
+            "Name": "Main_Upper_Background",
+            "X": 31,
+            "Y": 23,
+            "Width": 734,
+            "Height": 52,
+            "Color": {
+              "Red": 193,
+              "Green": 222,
+              "Blue": 194
+            },
+            "Alpha": 233
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Main_TextUpper_Farmbuddy",
+            "X": 288,
+            "Y": 31,
+            "Width": 227,
+            "Height": 36,
+            "TextId": "__SingleUse_3Y5F",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 74,
+              "Green": 102,
+              "Blue": 75
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "Temperature_toggle",
+            "X": 540,
+            "Y": 120,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__generated\\clay_theme_images_widgets_togglebutton_large_rounded_text_off_normal.png",
+            "Released": "__generated\\clay_theme_images_widgets_togglebutton_large_rounded_text_on_dark.png",
+            "Preset": "clay_theme\\presets\\togglebutton\\large\\rounded_text.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Control_temperature",
+            "X": 97,
+            "Y": 140,
+            "Width": 367,
+            "Height": 40,
+            "TextId": "__SingleUse_Q8PK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 74,
+              "Green": 102,
+              "Blue": 75
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "Humidity_toggle",
+            "X": 542,
+            "Y": 200,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__generated\\clay_theme_images_widgets_togglebutton_large_rounded_text_off_normal.png",
+            "Released": "__generated\\clay_theme_images_widgets_togglebutton_large_rounded_text_on_dark.png",
+            "Preset": "clay_theme\\presets\\togglebutton\\large\\rounded_text.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Control_watersupply",
+            "X": 82,
+            "Y": 211,
+            "Width": 367,
+            "Height": 38,
+            "TextId": "__SingleUse_M09D",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 74,
+              "Green": 102,
+              "Blue": 75
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Control_wateramount",
+            "X": 58,
+            "Y": 287,
+            "Width": 367,
+            "Height": 43,
+            "TextId": "__SingleUse_5NUH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 74,
+              "Green": 102,
+              "Blue": 75
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Control_wateramount_1",
+            "X": 464,
+            "Y": 295,
+            "Width": 77,
+            "Height": 26,
+            "TextId": "__SingleUse_MXXJ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 74,
+              "Green": 102,
+              "Blue": 75
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Control_wateramount_1_1",
+            "X": 597,
+            "Y": 295,
+            "Width": 77,
+            "Height": 26,
+            "TextId": "__SingleUse_OOFZ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 74,
+              "Green": 102,
+              "Blue": 75
+            }
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButton1",
+            "X": 674,
+            "Y": 290,
+            "Width": 36,
+            "Height": 36,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\medium_dark_rounded.json"
+          },
+          {
+            "Type": "RadioButton",
+            "Name": "radioButton2",
+            "X": 541,
+            "Y": 290,
+            "Width": 36,
+            "Height": 36,
+            "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_dark.png",
+            "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_pressed.png",
+            "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_off.png",
+            "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_off_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup1",
+            "Preset": "alternate_theme\\presets\\radiobutton\\radio\\medium_dark_rounded.json"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel1",
+            "X": 121,
+            "Y": 364,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "TextId": "__SingleUse_I0KE",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel1_1",
+            "X": 472,
+            "Y": 364,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "TextId": "__SingleUse_RX2P",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "Farm-Buddy",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "ControlScreen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "24": "LCDGPU2D",
+      "16": "LCDGPU2D"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [
+      {
+        "Key": 1,
+        "Name": "USER_BUTTON"
+      }
+    ],
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U5F9/5G9",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m33",
+    "ProjectFile": "../STM32U5G9J-DK2.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [
+      "GPU2D"
+    ],
+    "AdditionalFeatures": [
+      "GPU2DVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.24.1",
+  "CreatedBy": "4.24.1"
+}

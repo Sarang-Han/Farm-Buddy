@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.24.1">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_RX2P" Alignment="Center" TypographyId="Typography_02">
+        <Translation Language="GB">Water on</Translation>
+      </Text>
+      <Text Id="__SingleUse_I0KE" Alignment="Center" TypographyId="Typography_02">
+        <Translation Language="GB">LED on</Translation>
+      </Text>
+      <Text Id="__SingleUse_OOFZ" Alignment="Center" TypographyId="Typography_02">
+        <Translation Language="GB">5 sec</Translation>
+      </Text>
+      <Text Id="__SingleUse_MXXJ" Alignment="Center" TypographyId="Typography_02">
+        <Translation Language="GB">2 sec</Translation>
+      </Text>
+      <Text Id="__SingleUse_5NUH" Alignment="Center" TypographyId="Typography_01">
+        <Translation Language="GB">Watering Time</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q8PK" Alignment="Center" TypographyId="Typography_01">
+        <Translation Language="GB">Temperature Alert</Translation>
+      </Text>
+      <Text Id="__SingleUse_M09D" Alignment="Center" TypographyId="Typography_01">
+        <Translation Language="GB">Auto Water Refill</Translation>
+      </Text>
+      <Text Id="__SingleUse_3Y5F" Alignment="Center" TypographyId="Typography_01">
+        <Translation Language="GB">Control Panel</Translation>
+      </Text>
+      <Text Id="__SingleUse_NJYO" Alignment="Center" TypographyId="Typography_02">
+        <Translation Language="GB">My BUDDY state :</Translation>
+      </Text>
+      <Text Id="__SingleUse_Z61T" Alignment="Center" TypographyId="Typography_02">
+        <Translation Language="GB">Illuminance :</Translation>
+      </Text>
+      <Text Id="__SingleUse_L6QC" Alignment="Center" TypographyId="Typography_02">
+        <Translation Language="GB">Temperature :</Translation>
+      </Text>
+      <Text Id="__SingleUse_GFTR" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">STM32 Quest</Translation>
+      </Text>
+      <Text Id="__SingleUse_H0ZL" Alignment="Center" TypographyId="Typography_01">
+        <Translation Language="GB">FARM-BUDDY</Translation>
+      </Text>
+      <Text Id="__SingleUse_LWT5" Alignment="Center" TypographyId="Typography_00">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_RQCW" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">Sensor</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_00" Font="verdanab.ttf" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" />
+    <Typography Id="Typography_01" Font="verdanab.ttf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_02" Font="verdanab.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_03" Font="verdanab.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

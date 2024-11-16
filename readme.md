@@ -10,3 +10,5 @@ Performance testing can be done using the GPIO pins designated with the followin
 - RENDER_TIME - PC10 (CN1 pin 16)
 - FRAME_RATE  - PC11 (CN1 pin 18)
 - MCU_ACTIVE  - PC12 (CN1 pin 20)
+
+test

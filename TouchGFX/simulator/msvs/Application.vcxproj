@@ -20,8 +20,6 @@
     <ClCompile Include="..\..\gui\src\controlscreen_screen\ControlScreenPresenter.cpp"/>
     <ClCompile Include="..\..\gui\src\controlscreen_screen\ControlScreenView.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\controlscreen_screen\ControlScreenViewBase.cpp"/>
-    <ClCompile Include="..\..\gui\src\containers\CustomContainer1.cpp"/>
-    <ClCompile Include="..\..\generated\gui_generated\src\containers\CustomContainer1Base.cpp"/>
     <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\common\FrontendApplicationBase.cpp"/>
     <ClCompile Include="..\..\gui\src\mainscreen_screen\MainScreenPresenter.cpp"/>
@@ -172,8 +170,6 @@
     <ClInclude Include="..\..\gui\include\gui\controlscreen_screen\ControlScreenPresenter.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\controlscreen_screen\ControlScreenView.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\controlscreen_screen\ControlScreenViewBase.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\containers\CustomContainer1.hpp"/>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\CustomContainer1Base.hpp"/>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\DirectFrameBufferVideoController.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\common\FrontendApplication.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\FrontendApplicationBase.hpp"/>

@@ -4,7 +4,21 @@
 
 FONT_TABLE_LOCATION_FLASH_PRAGMA
 KEEP extern const touchgfx::GlyphNode glyphs_verdanab_15_4bpp[] FONT_TABLE_LOCATION_FLASH_ATTRIBUTE = {
-    {     0, 0x003F,   8,  12,  12,   1,   9,   0,   0, 0x00 }
+    {     0, 0x0020,   0,   0,   0,   0,   5,   0,   0, 0x00 },
+    {     0, 0x002C,   5,   6,   3,   0,   5,   0,   0, 0x00 },
+    {    18, 0x002D,   7,   3,   7,   0,   7,   0,   0, 0x00 },
+    {    30, 0x002E,   4,   4,   4,   1,   5,   0,   0, 0x00 },
+    {    38, 0x0030,  10,  12,  12,   0,  11,   0,   0, 0x00 },
+    {    98, 0x0031,   9,  12,  12,   1,  11,   0,   0, 0x00 },
+    {   158, 0x0032,   9,  12,  12,   1,  11,   0,   0, 0x00 },
+    {   218, 0x0033,   9,  12,  12,   1,  11,   0,   0, 0x00 },
+    {   278, 0x0034,  11,  12,  12,   0,  11,   0,   0, 0x00 },
+    {   350, 0x0035,   9,  12,  12,   1,  11,   0,   0, 0x00 },
+    {   410, 0x0036,   9,  12,  12,   1,  11,   0,   0, 0x00 },
+    {   470, 0x0037,   9,  12,  12,   1,  11,   0,   0, 0x00 },
+    {   530, 0x0038,  10,  12,  12,   0,  11,   0,   0, 0x00 },
+    {   590, 0x0039,  10,  12,  12,   0,  11,   0,   0, 0x00 },
+    {   650, 0x003F,   8,  12,  12,   1,   9,   0,   0, 0x00 }
 };
 
 // verdanab_15_4bpp
@@ -22,6 +36,6 @@ touchgfx::GeneratedFont& getFont_verdanab_15_4bpp();
 
 touchgfx::GeneratedFont& getFont_verdanab_15_4bpp()
 {
-    static touchgfx::GeneratedFont verdanab_15_4bpp(glyphs_verdanab_15_4bpp, 1, 15, 15, 0, 0, 4, 1, 0, 0, unicodes_verdanab_15_4bpp, kerning_verdanab_15_4bpp, 63, 0, 0, 0);
+    static touchgfx::GeneratedFont verdanab_15_4bpp(glyphs_verdanab_15_4bpp, 15, 18, 15, 0, 0, 4, 1, 0, 0, unicodes_verdanab_15_4bpp, kerning_verdanab_15_4bpp, 63, 0, 0, 0);
     return verdanab_15_4bpp;
 }

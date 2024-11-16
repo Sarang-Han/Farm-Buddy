@@ -163,12 +163,6 @@
     <Filter Include="Header Files\gui\model">
       <UniqueIdentifier>D0FDCD84-713D-D599-B812-F4E4ADB519C3</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\gui\containers">
-      <UniqueIdentifier>27E3B629-0591-1B8E-2BC0-385D3900A79D</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\gui\containers">
-      <UniqueIdentifier>2CF0C5E6-302D-57D1-4017-E9787D1F3BE7</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\gui\model">
       <UniqueIdentifier>767FE8B9-22D5-717C-5282-DC6E39CD96DD</UniqueIdentifier>
     </Filter>
@@ -236,12 +230,6 @@
     </ClCompile>
     <ClCompile Include="..\..\generated\gui_generated\src\controlscreen_screen\ControlScreenViewBase.cpp">
       <Filter>Source Files\generated\gui_generated\controlscreen_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\containers\CustomContainer1.cpp">
-      <Filter>Source Files\gui\containers</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\containers\CustomContainer1Base.cpp">
-      <Filter>Source Files\generated\gui_generated\containers</Filter>
     </ClCompile>
     <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp">
       <Filter>Source Files\gui\common</Filter>
@@ -684,12 +672,6 @@
     </ClInclude>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\controlscreen_screen\ControlScreenViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\controlscreen_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\containers\CustomContainer1.hpp">
-      <Filter>Header Files\gui\containers</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\CustomContainer1Base.hpp">
-      <Filter>Header Files\generated\gui_generated\containers</Filter>
     </ClInclude>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\DirectFrameBufferVideoController.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>

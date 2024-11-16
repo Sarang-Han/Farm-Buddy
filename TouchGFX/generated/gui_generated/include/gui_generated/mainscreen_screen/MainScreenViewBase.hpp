@@ -13,6 +13,10 @@
 #include <touchgfx/containers/clock/DigitalClock.hpp>
 #include <touchgfx/widgets/BoxWithBorder.hpp>
 #include <touchgfx/widgets/ScalableImage.hpp>
+#include <touchgfx/widgets/graph/GraphScroll.hpp>
+#include <touchgfx/widgets/graph/GraphElements.hpp>
+#include <touchgfx/widgets/graph/GraphLabels.hpp>
+#include <touchgfx/widgets/canvas/PainterRGB565.hpp>
 
 class MainScreenViewBase : public touchgfx::View<MainScreenPresenter>
 {
@@ -47,8 +51,20 @@ protected:
     touchgfx::TextArea Main_TextBuddystate;
     touchgfx::BoxWithBorder boxWithBorder1;
     touchgfx::ScalableImage happy_flower;
+    touchgfx::GraphScroll<75> dynamicGraph1;
+    touchgfx::GraphElementGridY dynamicGraph1MajorYAxisGrid;
+    touchgfx::GraphLabelsX dynamicGraph1MajorXAxisLabel;
+    touchgfx::GraphLabelsY dynamicGraph1MajorYAxisLabel;
+    touchgfx::GraphElementLine dynamicGraph1Line1;
+    touchgfx::PainterRGB565 dynamicGraph1Line1Painter;
 
 private:
+
+    /*
+     * Canvas Buffer Size
+     */
+    static const uint32_t CANVAS_BUFFER_SIZE = 12000;
+    uint8_t canvasBuffer[CANVAS_BUFFER_SIZE];
 
 };
 

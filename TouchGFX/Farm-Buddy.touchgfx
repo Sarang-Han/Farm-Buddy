@@ -220,7 +220,7 @@
               "Green": 159,
               "Blue": 133
             },
-            "BorderSize": 3,
+            "BorderSize": 2,
             "Alpha": 233
           },
           {
@@ -236,30 +236,71 @@
           {
             "Type": "DynamicGraph",
             "Name": "dynamicGraph1",
-            "X": 400,
-            "Y": 309,
-            "Width": 365,
-            "Height": 118,
+            "X": 398,
+            "Y": 297,
+            "Width": 367,
+            "Height": 142,
             "DataSeed": -1535987233,
-            "NumberOfValues": 100,
-            "MaxY": 100.0,
+            "NumberOfValues": 75,
+            "MaxY": 40.0,
+            "MinY": 10.0,
             "Precision": "1",
-            "LastIndex": 99,
+            "UseCustomVisibleDataPointRange": true,
+            "LastIndex": 74,
             "XAxisScale": 1.0,
             "InsertRandomValues": true,
-            "GraphType": "GraphWrapClear",
+            "LabelSizeTop": 9,
+            "LabelSizeBottom": 26,
+            "LabelSizeLeft": 33,
+            "GraphType": "GraphScroll",
             "GraphDrawers": [
               {
                 "Type": "LineDrawer",
                 "LineWidth": 2,
                 "FileNameImage": "",
                 "Color": {
-                  "Red": 20,
-                  "Green": 151,
-                  "Blue": 197
+                  "Red": 92,
+                  "Green": 182,
+                  "Blue": 214
                 }
               }
-            ]
+            ],
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "Interval": 10.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "TextId": "__SingleUse_5I1X",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 20,
+                "Green": 151,
+                "Blue": 197
+              },
+              "TextId": "__SingleUse_0GXC",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
           }
         ],
         "Interactions": []
@@ -487,7 +528,7 @@
       "Height": 480
     },
     "SelectedColorDepth": 16,
-    "StartupScreenName": "ControlScreen",
+    "StartupScreenName": "MainScreen",
     "SelectedStartupLanguage": "GB",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
     "UIPath": ".",

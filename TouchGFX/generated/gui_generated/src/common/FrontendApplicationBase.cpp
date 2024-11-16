@@ -13,8 +13,6 @@
 #endif
 #include <gui/mainscreen_screen/MainScreenView.hpp>
 #include <gui/mainscreen_screen/MainScreenPresenter.hpp>
-#include <gui/controlscreen_screen/ControlScreenView.hpp>
-#include <gui/controlscreen_screen/ControlScreenPresenter.hpp>
 
 using namespace touchgfx;
 

@@ -17,9 +17,6 @@
     <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl2\OSWrappers.cpp"/>
     <ClCompile Include="$(ApplicationRoot)\simulator\main.cpp"/>
     <ClCompile Include="$(ApplicationRoot)\generated\simulator\src\mainBase.cpp"/>
-    <ClCompile Include="..\..\gui\src\controlscreen_screen\ControlScreenPresenter.cpp"/>
-    <ClCompile Include="..\..\gui\src\controlscreen_screen\ControlScreenView.cpp"/>
-    <ClCompile Include="..\..\generated\gui_generated\src\controlscreen_screen\ControlScreenViewBase.cpp"/>
     <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\common\FrontendApplicationBase.cpp"/>
     <ClCompile Include="..\..\gui\src\mainscreen_screen\MainScreenPresenter.cpp"/>
@@ -167,9 +164,6 @@
     <ClInclude Include="$(TouchGFXReleasePath)\framework\include\touchgfx\widgets\TouchArea.hpp"/>
     <ClInclude Include="$(TouchGFXReleasePath)\framework\include\touchgfx\widgets\Widget.hpp"/>
     <ClInclude Include="$(ApplicationRoot)\generated\simulator\include\simulator\mainBase.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\controlscreen_screen\ControlScreenPresenter.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\controlscreen_screen\ControlScreenView.hpp"/>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\controlscreen_screen\ControlScreenViewBase.hpp"/>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\DirectFrameBufferVideoController.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\common\FrontendApplication.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\FrontendApplicationBase.hpp"/>

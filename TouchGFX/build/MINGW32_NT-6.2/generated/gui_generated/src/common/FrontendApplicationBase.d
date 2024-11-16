@@ -87,9 +87,6 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/common/FrontendApplicationBase.
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp \
- gui/include/gui/controlscreen_screen/ControlScreenView.hpp \
- generated/gui_generated/include/gui_generated/controlscreen_screen/ControlScreenViewBase.hpp \
- gui/include/gui/controlscreen_screen/ControlScreenPresenter.hpp \
  generated/texts/include/texts/TextKeysAndLanguages.hpp
 
 generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:
@@ -267,11 +264,5 @@ gui/include/gui/model/ModelListener.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:
-
-gui/include/gui/controlscreen_screen/ControlScreenView.hpp:
-
-generated/gui_generated/include/gui_generated/controlscreen_screen/ControlScreenViewBase.hpp:
-
-gui/include/gui/controlscreen_screen/ControlScreenPresenter.hpp:
 
 generated/texts/include/texts/TextKeysAndLanguages.hpp:

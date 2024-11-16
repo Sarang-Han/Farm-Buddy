@@ -145,14 +145,8 @@
     <Filter Include="Source Files\gui\mainscreen_screen">
       <UniqueIdentifier>952104E5-BA10-7542-9D08-6AB3B2C4B131</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\gui\controlscreen_screen">
-      <UniqueIdentifier>552C73CA-72F0-06AE-3801-8742E286B844</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\gui\mainscreen_screen">
       <UniqueIdentifier>C828EF11-4BA5-9AA7-1DB8-E884C8A47D2C</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\gui\controlscreen_screen">
-      <UniqueIdentifier>34D9F524-AFDD-07CD-BEC5-5D72F547E2C5</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\generated\gui_generated">
       <UniqueIdentifier>87B6F478-EE0F-C191-0FA4-0BC63193BB77</UniqueIdentifier>
@@ -171,12 +165,6 @@
     </Filter>
     <Filter Include="Header Files\generated\gui_generated\common">
       <UniqueIdentifier>A8F4069C-7233-FE46-367A-9E1E0C82C869</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\generated\gui_generated\controlscreen_screen">
-      <UniqueIdentifier>C4AEEFD1-7702-22DF-EBB3-1F32F5C66D0A</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\generated\gui_generated\controlscreen_screen">
-      <UniqueIdentifier>16430F59-6642-33DA-C9DC-B9A9185357D8</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\generated\gui_generated\mainscreen_screen">
       <UniqueIdentifier>8B53C0D4-A20A-22F3-97C0-702D21275DE6</UniqueIdentifier>
@@ -215,15 +203,6 @@
     </ClCompile>
     <ClCompile Include="$(ApplicationRoot)\generated\simulator\src\mainBase.cpp">
       <Filter>Source Files\generated\simulator</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\controlscreen_screen\ControlScreenPresenter.cpp">
-      <Filter>Source Files\gui\controlscreen_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\controlscreen_screen\ControlScreenView.cpp">
-      <Filter>Source Files\gui\controlscreen_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\controlscreen_screen\ControlScreenViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\controlscreen_screen</Filter>
     </ClCompile>
     <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp">
       <Filter>Source Files\gui\common</Filter>
@@ -657,15 +636,6 @@
     </ClInclude>
     <ClInclude Include="$(ApplicationRoot)\generated\simulator\include\simulator\mainBase.hpp">
       <Filter>Header Files\generated\simulator</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\controlscreen_screen\ControlScreenPresenter.hpp">
-      <Filter>Header Files\gui\controlscreen_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\controlscreen_screen\ControlScreenView.hpp">
-      <Filter>Header Files\gui\controlscreen_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\controlscreen_screen\ControlScreenViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\controlscreen_screen</Filter>
     </ClInclude>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\DirectFrameBufferVideoController.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>

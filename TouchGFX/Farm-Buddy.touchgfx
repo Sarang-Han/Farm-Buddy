@@ -18,228 +18,11 @@
             "IndicatorImageNormal": "__generated\\alternate_theme_images_widgets_swipecontainer_medium_off_normal.png",
             "IndicatorImageHighlight": "__generated\\alternate_theme_images_widgets_swipecontainer_medium_on_action.png",
             "EndSwipeElasticWidth": 50,
-            "SelectedPage": "swipeP1_Main",
+            "SelectedPage": "swipeP2_Main_",
             "Components": [
               {
                 "Type": "Container",
-                "Name": "swipeP2_Ctrl",
-                "Width": 800,
-                "Height": 480,
-                "Components": [
-                  {
-                    "Type": "Image",
-                    "Name": "Control_Wallpaper",
-                    "Width": 800,
-                    "Height": 480,
-                    "LockPosition": true,
-                    "RelativeFilename": "__generated\\light_theme_images_backgrounds_800x480_shattered_rain.png"
-                  },
-                  {
-                    "Type": "Box",
-                    "Name": "Ctrl_Upper_Background",
-                    "X": 31,
-                    "Y": 23,
-                    "Width": 734,
-                    "Height": 52,
-                    "Color": {
-                      "Red": 193,
-                      "Green": 222,
-                      "Blue": 194
-                    },
-                    "Alpha": 233
-                  },
-                  {
-                    "Type": "TextArea",
-                    "Name": "Ctrl_TextUpper_Farmbuddy",
-                    "X": 288,
-                    "Y": 31,
-                    "Width": 227,
-                    "Height": 36,
-                    "TextId": "__SingleUse_3Y5F",
-                    "TextRotation": "0",
-                    "Color": {
-                      "Red": 74,
-                      "Green": 102,
-                      "Blue": 75
-                    },
-                    "AutoSize": true
-                  },
-                  {
-                    "Type": "ToggleButton",
-                    "Name": "Temperature_toggle",
-                    "X": 540,
-                    "Y": 120,
-                    "Width": 170,
-                    "Height": 60,
-                    "Pressed": "__generated\\clay_theme_images_widgets_togglebutton_large_rounded_text_off_normal.png",
-                    "Released": "__generated\\clay_theme_images_widgets_togglebutton_large_rounded_text_on_dark.png",
-                    "Preset": "clay_theme\\presets\\togglebutton\\large\\rounded_text.json"
-                  },
-                  {
-                    "Type": "TextArea",
-                    "Name": "Control_temperature",
-                    "X": 97,
-                    "Y": 140,
-                    "Width": 367,
-                    "Height": 40,
-                    "TextId": "__SingleUse_Q8PK",
-                    "TextRotation": "0",
-                    "Color": {
-                      "Red": 74,
-                      "Green": 102,
-                      "Blue": 75
-                    }
-                  },
-                  {
-                    "Type": "ToggleButton",
-                    "Name": "Humidity_toggle",
-                    "X": 542,
-                    "Y": 200,
-                    "Width": 170,
-                    "Height": 60,
-                    "Pressed": "__generated\\clay_theme_images_widgets_togglebutton_large_rounded_text_off_normal.png",
-                    "Released": "__generated\\clay_theme_images_widgets_togglebutton_large_rounded_text_on_dark.png",
-                    "Preset": "clay_theme\\presets\\togglebutton\\large\\rounded_text.json"
-                  },
-                  {
-                    "Type": "TextArea",
-                    "Name": "Control_watersupply",
-                    "X": 82,
-                    "Y": 211,
-                    "Width": 367,
-                    "Height": 38,
-                    "TextId": "__SingleUse_M09D",
-                    "TextRotation": "0",
-                    "Color": {
-                      "Red": 74,
-                      "Green": 102,
-                      "Blue": 75
-                    }
-                  },
-                  {
-                    "Type": "TextArea",
-                    "Name": "Control_wateramount",
-                    "X": 58,
-                    "Y": 287,
-                    "Width": 367,
-                    "Height": 43,
-                    "TextId": "__SingleUse_5NUH",
-                    "TextRotation": "0",
-                    "Color": {
-                      "Red": 74,
-                      "Green": 102,
-                      "Blue": 75
-                    }
-                  },
-                  {
-                    "Type": "TextArea",
-                    "Name": "Control_wateramount_1",
-                    "X": 464,
-                    "Y": 295,
-                    "Width": 77,
-                    "Height": 26,
-                    "TextId": "__SingleUse_MXXJ",
-                    "TextRotation": "0",
-                    "Color": {
-                      "Red": 74,
-                      "Green": 102,
-                      "Blue": 75
-                    }
-                  },
-                  {
-                    "Type": "TextArea",
-                    "Name": "Control_wateramount_1_1",
-                    "X": 597,
-                    "Y": 295,
-                    "Width": 77,
-                    "Height": 26,
-                    "TextId": "__SingleUse_OOFZ",
-                    "TextRotation": "0",
-                    "Color": {
-                      "Red": 74,
-                      "Green": 102,
-                      "Blue": 75
-                    }
-                  },
-                  {
-                    "Type": "RadioButton",
-                    "Name": "radioButton1",
-                    "X": 674,
-                    "Y": 290,
-                    "Width": 36,
-                    "Height": 36,
-                    "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_dark.png",
-                    "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_pressed.png",
-                    "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_off.png",
-                    "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_off_pressed.png",
-                    "RadioButtonGroup": "radioButtonGroup1",
-                    "Preset": "alternate_theme\\presets\\radiobutton\\radio\\medium_dark_rounded.json"
-                  },
-                  {
-                    "Type": "RadioButton",
-                    "Name": "radioButton2",
-                    "X": 541,
-                    "Y": 290,
-                    "Width": 36,
-                    "Height": 36,
-                    "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_dark.png",
-                    "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_pressed.png",
-                    "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_off.png",
-                    "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_off_pressed.png",
-                    "RadioButtonGroup": "radioButtonGroup1",
-                    "Preset": "alternate_theme\\presets\\radiobutton\\radio\\medium_dark_rounded.json"
-                  },
-                  {
-                    "Type": "ButtonWithLabel",
-                    "Name": "buttonWithLabel1",
-                    "X": 121,
-                    "Y": 364,
-                    "Width": 240,
-                    "Height": 50,
-                    "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
-                    "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
-                    "TextId": "__SingleUse_I0KE",
-                    "ReleasedColor": {
-                      "Red": 255,
-                      "Green": 255,
-                      "Blue": 255
-                    },
-                    "PressedColor": {
-                      "Red": 255,
-                      "Green": 255,
-                      "Blue": 255
-                    },
-                    "TextRotation": "0",
-                    "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
-                  },
-                  {
-                    "Type": "ButtonWithLabel",
-                    "Name": "buttonWithLabel1_1",
-                    "X": 472,
-                    "Y": 364,
-                    "Width": 240,
-                    "Height": 50,
-                    "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
-                    "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
-                    "TextId": "__SingleUse_RX2P",
-                    "ReleasedColor": {
-                      "Red": 255,
-                      "Green": 255,
-                      "Blue": 255
-                    },
-                    "PressedColor": {
-                      "Red": 255,
-                      "Green": 255,
-                      "Blue": 255
-                    },
-                    "TextRotation": "0",
-                    "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
-                  }
-                ]
-              },
-              {
-                "Type": "Container",
-                "Name": "swipeP1_Main",
+                "Name": "swipeP2_Main_",
                 "Width": 800,
                 "Height": 480,
                 "Components": [
@@ -539,6 +322,223 @@
                       "TextRotation": "0",
                       "Position": "Left"
                     }
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "swipeP1_Ctrl",
+                "Width": 800,
+                "Height": 480,
+                "Components": [
+                  {
+                    "Type": "Image",
+                    "Name": "Control_Wallpaper",
+                    "Width": 800,
+                    "Height": 480,
+                    "LockPosition": true,
+                    "RelativeFilename": "__generated\\light_theme_images_backgrounds_800x480_shattered_rain.png"
+                  },
+                  {
+                    "Type": "Box",
+                    "Name": "Ctrl_Upper_Background",
+                    "X": 31,
+                    "Y": 23,
+                    "Width": 734,
+                    "Height": 52,
+                    "Color": {
+                      "Red": 193,
+                      "Green": 222,
+                      "Blue": 194
+                    },
+                    "Alpha": 233
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Ctrl_TextUpper_Farmbuddy",
+                    "X": 288,
+                    "Y": 31,
+                    "Width": 227,
+                    "Height": 36,
+                    "TextId": "__SingleUse_3Y5F",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 74,
+                      "Green": 102,
+                      "Blue": 75
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "ToggleButton",
+                    "Name": "Temperature_toggle",
+                    "X": 540,
+                    "Y": 120,
+                    "Width": 170,
+                    "Height": 60,
+                    "Pressed": "__generated\\clay_theme_images_widgets_togglebutton_large_rounded_text_off_normal.png",
+                    "Released": "__generated\\clay_theme_images_widgets_togglebutton_large_rounded_text_on_dark.png",
+                    "Preset": "clay_theme\\presets\\togglebutton\\large\\rounded_text.json"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Control_temperature",
+                    "X": 97,
+                    "Y": 140,
+                    "Width": 367,
+                    "Height": 40,
+                    "TextId": "__SingleUse_Q8PK",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 74,
+                      "Green": 102,
+                      "Blue": 75
+                    }
+                  },
+                  {
+                    "Type": "ToggleButton",
+                    "Name": "Humidity_toggle",
+                    "X": 542,
+                    "Y": 200,
+                    "Width": 170,
+                    "Height": 60,
+                    "Pressed": "__generated\\clay_theme_images_widgets_togglebutton_large_rounded_text_off_normal.png",
+                    "Released": "__generated\\clay_theme_images_widgets_togglebutton_large_rounded_text_on_dark.png",
+                    "Preset": "clay_theme\\presets\\togglebutton\\large\\rounded_text.json"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Control_watersupply",
+                    "X": 82,
+                    "Y": 211,
+                    "Width": 367,
+                    "Height": 38,
+                    "TextId": "__SingleUse_M09D",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 74,
+                      "Green": 102,
+                      "Blue": 75
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Control_wateramount",
+                    "X": 58,
+                    "Y": 287,
+                    "Width": 367,
+                    "Height": 43,
+                    "TextId": "__SingleUse_5NUH",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 74,
+                      "Green": 102,
+                      "Blue": 75
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Control_wateramount_1",
+                    "X": 464,
+                    "Y": 295,
+                    "Width": 77,
+                    "Height": 26,
+                    "TextId": "__SingleUse_MXXJ",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 74,
+                      "Green": 102,
+                      "Blue": 75
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Control_wateramount_1_1",
+                    "X": 597,
+                    "Y": 295,
+                    "Width": 77,
+                    "Height": 26,
+                    "TextId": "__SingleUse_OOFZ",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 74,
+                      "Green": 102,
+                      "Blue": 75
+                    }
+                  },
+                  {
+                    "Type": "RadioButton",
+                    "Name": "radioButton1",
+                    "X": 674,
+                    "Y": 290,
+                    "Width": 36,
+                    "Height": 36,
+                    "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_dark.png",
+                    "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_pressed.png",
+                    "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_off.png",
+                    "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_off_pressed.png",
+                    "RadioButtonGroup": "radioButtonGroup1",
+                    "Preset": "alternate_theme\\presets\\radiobutton\\radio\\medium_dark_rounded.json"
+                  },
+                  {
+                    "Type": "RadioButton",
+                    "Name": "radioButton2",
+                    "X": 541,
+                    "Y": 290,
+                    "Width": 36,
+                    "Height": 36,
+                    "FileNameSelected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_dark.png",
+                    "FileNameSelectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_on_pressed.png",
+                    "FileNameUnselected": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_off.png",
+                    "FileNameUnselectedPressed": "__generated\\alternate_theme_images_widgets_radiobutton_radio_medium_rounded_off_pressed.png",
+                    "RadioButtonGroup": "radioButtonGroup1",
+                    "Preset": "alternate_theme\\presets\\radiobutton\\radio\\medium_dark_rounded.json"
+                  },
+                  {
+                    "Type": "ButtonWithLabel",
+                    "Name": "buttonWithLabel1",
+                    "X": 121,
+                    "Y": 364,
+                    "Width": 240,
+                    "Height": 50,
+                    "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+                    "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+                    "TextId": "__SingleUse_I0KE",
+                    "ReleasedColor": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "PressedColor": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "TextRotation": "0",
+                    "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+                  },
+                  {
+                    "Type": "ButtonWithLabel",
+                    "Name": "buttonWithLabel1_1",
+                    "X": 472,
+                    "Y": 364,
+                    "Width": 240,
+                    "Height": 50,
+                    "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+                    "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+                    "TextId": "__SingleUse_RX2P",
+                    "ReleasedColor": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "PressedColor": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "TextRotation": "0",
+                    "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
                   }
                 ]
               }

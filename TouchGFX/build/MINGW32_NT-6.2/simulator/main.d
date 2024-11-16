@@ -110,9 +110,6 @@ build/MINGW32_NT-6.2/simulator/main.o: simulator/main.cpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp \
- gui/include/gui/controlscreen_screen/ControlScreenView.hpp \
- generated/gui_generated/include/gui_generated/controlscreen_screen/ControlScreenViewBase.hpp \
- gui/include/gui/controlscreen_screen/ControlScreenPresenter.hpp \
  generated/gui_generated/include/gui_generated/common/SimConstants.hpp \
  ../Middlewares/ST/touchgfx/framework/include/platform/driver/touch/SDL2TouchController.hpp \
  generated/simulator/include/simulator/mainBase.hpp
@@ -338,12 +335,6 @@ gui/include/gui/model/ModelListener.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:
-
-gui/include/gui/controlscreen_screen/ControlScreenView.hpp:
-
-generated/gui_generated/include/gui_generated/controlscreen_screen/ControlScreenViewBase.hpp:
-
-gui/include/gui/controlscreen_screen/ControlScreenPresenter.hpp:
 
 generated/gui_generated/include/gui_generated/common/SimConstants.hpp:
 

@@ -8,12 +8,6 @@
 #include <mvp/View.hpp>
 #include <gui/controlscreen_screen/ControlScreenPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
-#include <touchgfx/widgets/Image.hpp>
-#include <touchgfx/widgets/TextArea.hpp>
-#include <touchgfx/widgets/ToggleButton.hpp>
-#include <touchgfx/widgets/RadioButton.hpp>
-#include <touchgfx/widgets/RadioButtonGroup.hpp>
-#include <touchgfx/widgets/ButtonWithLabel.hpp>
 
 class ControlScreenViewBase : public touchgfx::View<ControlScreenPresenter>
 {
@@ -31,21 +25,6 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
-    touchgfx::Image Control_Wallpaper;
-    touchgfx::Box Main_Upper_Background;
-    touchgfx::TextArea Main_TextUpper_Farmbuddy;
-    touchgfx::ToggleButton Temperature_toggle;
-    touchgfx::TextArea Control_temperature;
-    touchgfx::ToggleButton Humidity_toggle;
-    touchgfx::TextArea Control_watersupply;
-    touchgfx::TextArea Control_wateramount;
-    touchgfx::TextArea Control_wateramount_1;
-    touchgfx::TextArea Control_wateramount_1_1;
-    touchgfx::RadioButtonGroup<2> radioButtonGroup1;
-    touchgfx::RadioButton radioButton1;
-    touchgfx::RadioButton radioButton2;
-    touchgfx::ButtonWithLabel buttonWithLabel1;
-    touchgfx::ButtonWithLabel buttonWithLabel1_1;
 
 private:
 

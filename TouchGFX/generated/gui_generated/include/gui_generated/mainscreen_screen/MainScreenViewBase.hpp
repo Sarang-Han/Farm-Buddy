@@ -8,6 +8,8 @@
 #include <mvp/View.hpp>
 #include <gui/mainscreen_screen/MainScreenPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
+#include <touchgfx/containers/SwipeContainer.hpp>
+#include <touchgfx/containers/Container.hpp>
 #include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/containers/clock/DigitalClock.hpp>
@@ -17,6 +19,10 @@
 #include <touchgfx/widgets/graph/GraphElements.hpp>
 #include <touchgfx/widgets/graph/GraphLabels.hpp>
 #include <touchgfx/widgets/canvas/PainterRGB565.hpp>
+#include <touchgfx/widgets/ToggleButton.hpp>
+#include <touchgfx/widgets/RadioButton.hpp>
+#include <touchgfx/widgets/RadioButtonGroup.hpp>
+#include <touchgfx/widgets/ButtonWithLabel.hpp>
 
 class MainScreenViewBase : public touchgfx::View<MainScreenPresenter>
 {
@@ -34,6 +40,8 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
+    touchgfx::SwipeContainer swipeContainer1;
+    touchgfx::Container swipeContainerP1;
     touchgfx::Image Main_Wallpaper;
     touchgfx::Box Main_PlantState;
     touchgfx::Box Main_SensorBackground;
@@ -57,6 +65,22 @@ protected:
     touchgfx::GraphLabelsY dynamicGraph1MajorYAxisLabel;
     touchgfx::GraphElementLine dynamicGraph1Line1;
     touchgfx::PainterRGB565 dynamicGraph1Line1Painter;
+    touchgfx::Container swipeContainerP2;
+    touchgfx::Image Control_Wallpaper;
+    touchgfx::Box Ctrl_Upper_Background;
+    touchgfx::TextArea Ctrl_TextUpper_Farmbuddy;
+    touchgfx::ToggleButton Temperature_toggle;
+    touchgfx::TextArea Control_temperature;
+    touchgfx::ToggleButton Humidity_toggle;
+    touchgfx::TextArea Control_watersupply;
+    touchgfx::TextArea Control_wateramount;
+    touchgfx::TextArea Control_wateramount_1;
+    touchgfx::TextArea Control_wateramount_1_1;
+    touchgfx::RadioButtonGroup<2> radioButtonGroup1;
+    touchgfx::RadioButton radioButton1;
+    touchgfx::RadioButton radioButton2;
+    touchgfx::ButtonWithLabel buttonWithLabel1;
+    touchgfx::ButtonWithLabel buttonWithLabel1_1;
 
 private:
 

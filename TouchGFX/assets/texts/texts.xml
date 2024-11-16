@@ -6,12 +6,6 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
-      <Text Id="__SingleUse_5I1X" Alignment="Left" TypographyId="Typography_03">
-        <Translation Language="GB">&lt;&gt;</Translation>
-      </Text>
-      <Text Id="__SingleUse_0GXC" Alignment="Right" TypographyId="Typography_03">
-        <Translation Language="GB">&lt;&gt;</Translation>
-      </Text>
       <Text Id="__SingleUse_RX2P" Alignment="Center" TypographyId="Typography_02">
         <Translation Language="GB">Water on</Translation>
       </Text>
@@ -27,14 +21,20 @@
       <Text Id="__SingleUse_5NUH" Alignment="Center" TypographyId="Typography_01">
         <Translation Language="GB">Watering Time</Translation>
       </Text>
-      <Text Id="__SingleUse_Q8PK" Alignment="Center" TypographyId="Typography_01">
-        <Translation Language="GB">Temperature Alert</Translation>
-      </Text>
       <Text Id="__SingleUse_M09D" Alignment="Center" TypographyId="Typography_01">
         <Translation Language="GB">Auto Water Refill</Translation>
       </Text>
+      <Text Id="__SingleUse_Q8PK" Alignment="Center" TypographyId="Typography_01">
+        <Translation Language="GB">Temperature Alert</Translation>
+      </Text>
       <Text Id="__SingleUse_3Y5F" Alignment="Center" TypographyId="Typography_01">
         <Translation Language="GB">Control Panel</Translation>
+      </Text>
+      <Text Id="__SingleUse_5I1X" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_0GXC" Alignment="Right" TypographyId="Typography_03">
+        <Translation Language="GB">&lt;&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_NJYO" Alignment="Center" TypographyId="Typography_02">
         <Translation Language="GB">My BUDDY state :</Translation>

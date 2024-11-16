@@ -166,9 +166,6 @@
     <Filter Include="Source Files\gui\model">
       <UniqueIdentifier>767FE8B9-22D5-717C-5282-DC6E39CD96DD</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\generated\gui_generated\containers">
-      <UniqueIdentifier>CD7735EA-59AC-EEDF-9BB0-1AC11E895A29</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\generated\simulator\include">
       <UniqueIdentifier>2EE6CFC9-866A-674B-E783-3D3C20D561B9</UniqueIdentifier>
     </Filter>
@@ -177,9 +174,6 @@
     </Filter>
     <Filter Include="Header Files\generated\gui_generated\controlscreen_screen">
       <UniqueIdentifier>C4AEEFD1-7702-22DF-EBB3-1F32F5C66D0A</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\generated\gui_generated\containers">
-      <UniqueIdentifier>5878D368-6D74-137F-FF34-775ADEBCF07C</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\generated\gui_generated\controlscreen_screen">
       <UniqueIdentifier>16430F59-6642-33DA-C9DC-B9A9185357D8</UniqueIdentifier>

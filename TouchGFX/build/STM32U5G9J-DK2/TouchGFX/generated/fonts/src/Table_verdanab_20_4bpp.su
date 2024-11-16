@@ -1,0 +1,2 @@
+Table_verdanab_20_4bpp.cpp:56:172:void __tcf_0()	0	static
+Table_verdanab_20_4bpp.cpp:54:26:touchgfx::GeneratedFont& getFont_verdanab_20_4bpp()	72	static

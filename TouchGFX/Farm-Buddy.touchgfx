@@ -6,6 +6,29 @@
         "CanvasBufferSize": 12000,
         "Components": [
           {
+            "Type": "Box",
+            "Name": "swipe_background2",
+            "Width": 58,
+            "Height": 480,
+            "Color": {
+              "Red": 242,
+              "Green": 242,
+              "Blue": 242
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "swipe_background1",
+            "X": 742,
+            "Width": 58,
+            "Height": 480,
+            "Color": {
+              "Red": 241,
+              "Green": 241,
+              "Blue": 241
+            }
+          },
+          {
             "Type": "SwipeContainer",
             "Name": "swipeContainer1",
             "Width": 800,
@@ -18,11 +41,11 @@
             "IndicatorImageNormal": "__generated\\alternate_theme_images_widgets_swipecontainer_medium_off_normal.png",
             "IndicatorImageHighlight": "__generated\\alternate_theme_images_widgets_swipecontainer_medium_on_action.png",
             "EndSwipeElasticWidth": 50,
-            "SelectedPage": "swipeP2_Main_",
+            "SelectedPage": "swipeP1_Main",
             "Components": [
               {
                 "Type": "Container",
-                "Name": "swipeP2_Main_",
+                "Name": "swipeP1_Main",
                 "Width": 800,
                 "Height": 480,
                 "Components": [
@@ -327,7 +350,7 @@
               },
               {
                 "Type": "Container",
-                "Name": "swipeP1_Ctrl",
+                "Name": "swipeP2_Ctrl",
                 "Width": 800,
                 "Height": 480,
                 "Components": [

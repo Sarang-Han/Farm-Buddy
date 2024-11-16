@@ -40,8 +40,10 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
+    touchgfx::Box swipe_background2;
+    touchgfx::Box swipe_background1;
     touchgfx::SwipeContainer swipeContainer1;
-    touchgfx::Container swipeP2_Main_;
+    touchgfx::Container swipeP1_Main;
     touchgfx::Image Main_Wallpaper;
     touchgfx::Box Main_PlantState;
     touchgfx::Box Main_SensorBackground;
@@ -65,7 +67,7 @@ protected:
     touchgfx::GraphLabelsY dynamicGraph1MajorYAxisLabel;
     touchgfx::GraphElementLine dynamicGraph1Line1;
     touchgfx::PainterRGB565 dynamicGraph1Line1Painter;
-    touchgfx::Container swipeP1_Ctrl;
+    touchgfx::Container swipeP2_Ctrl;
     touchgfx::Image Control_Wallpaper;
     touchgfx::Box Ctrl_Upper_Background;
     touchgfx::TextArea Ctrl_TextUpper_Farmbuddy;

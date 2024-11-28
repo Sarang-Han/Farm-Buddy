@@ -25,6 +25,9 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "Components/mx66uw1g45g/mx66uw1g45g.h"
+
+#include "FreeRTOS.h"
+#include "queue.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -66,7 +69,9 @@ LTDC_HandleTypeDef hltdc;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
+static char pDataRx[2];
 
+extern QueueHandle_t msgQueueUARTtoUI;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -143,7 +148,7 @@ int main(void)
   /* Call PreOsInit function */
   MX_TouchGFX_PreOSInit();
   /* USER CODE BEGIN 2 */
-
+  HAL_UART_Receive_IT(&huart2, (uint8_t *)pDataRx, 1);
   /* USER CODE END 2 */
 
   /* Init scheduler */
@@ -774,7 +779,17 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void Send_UART_Message(uint8_t *buf, uint8_t size)
+{
+  HAL_UART_Transmit(&huart2, (uint8_t *)buf, size, 5000);
+}
 
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+  xQueueSendFromISR(msgQueueUARTtoUI, &pDataRx[0], 0);
+
+  HAL_UART_Receive_IT(&huart2, (uint8_t *)pDataRx, 1);
+}
 /* USER CODE END 4 */
 
 /**

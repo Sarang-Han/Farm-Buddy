@@ -192,11 +192,16 @@
                     "Name": "Main_TextTemperature",
                     "X": 467,
                     "Y": 166,
-                    "Width": 159,
+                    "Width": 180,
                     "Height": 24,
                     "TextId": "__SingleUse_L6QC",
                     "TextRotation": "0",
-                    "AutoSize": true
+                    "AutoSize": true,
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_OWVD",
+                      "UseBuffer": true,
+                      "BufferSize": 3
+                    }
                   },
                   {
                     "Type": "Image",
@@ -212,11 +217,16 @@
                     "Name": "Main_TextIlluminance",
                     "X": 472,
                     "Y": 228,
-                    "Width": 148,
+                    "Width": 190,
                     "Height": 24,
                     "TextId": "__SingleUse_Z61T",
                     "TextRotation": "0",
-                    "AutoSize": true
+                    "AutoSize": true,
+                    "Wildcard1": {
+                      "TextId": "__SingleUse_11GT",
+                      "UseBuffer": true,
+                      "BufferSize": 3
+                    }
                   },
                   {
                     "Type": "Box",
@@ -275,6 +285,17 @@
                     "Width": 279,
                     "Height": 264,
                     "Filename": "happy_flower.png",
+                    "ScalingAlgorithm": "Nearest-neighbor"
+                  },
+                  {
+                    "Type": "ScalableImage",
+                    "Name": "sad_flower",
+                    "X": 58,
+                    "Y": 120,
+                    "Width": 295,
+                    "Height": 258,
+                    "Visible": false,
+                    "Filename": "sad_flower.png",
                     "ScalingAlgorithm": "Nearest-neighbor"
                   },
                   {

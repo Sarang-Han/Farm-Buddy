@@ -13,6 +13,7 @@
 #include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/containers/clock/DigitalClock.hpp>
+#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 #include <touchgfx/widgets/BoxWithBorder.hpp>
 #include <touchgfx/widgets/ScalableImage.hpp>
 #include <touchgfx/widgets/graph/GraphScroll.hpp>
@@ -54,13 +55,14 @@ protected:
     touchgfx::TextArea Main_TextUpper_Farmbuddy;
     touchgfx::TextArea Main_TextUpper_Quest;
     touchgfx::Image Main_ImageThermo;
-    touchgfx::TextArea Main_TextTemperature;
+    touchgfx::TextAreaWithOneWildcard Main_TextTemperature;
     touchgfx::Image Main_ImageIlluminance;
-    touchgfx::TextArea Main_TextIlluminance;
+    touchgfx::TextAreaWithOneWildcard Main_TextIlluminance;
     touchgfx::Box box1;
     touchgfx::TextArea Main_TextBuddystate;
     touchgfx::BoxWithBorder boxWithBorder1;
     touchgfx::ScalableImage happy_flower;
+    touchgfx::ScalableImage sad_flower;
     touchgfx::GraphScroll<75> dynamicGraph1;
     touchgfx::GraphElementGridY dynamicGraph1MajorYAxisGrid;
     touchgfx::GraphLabelsX dynamicGraph1MajorXAxisLabel;
@@ -83,6 +85,14 @@ protected:
     touchgfx::RadioButton radioButton2;
     touchgfx::ButtonWithLabel buttonWithLabel1;
     touchgfx::ButtonWithLabel buttonWithLabel1_1;
+
+    /*
+     * Wildcard Buffers
+     */
+    static const uint16_t MAIN_TEXTTEMPERATURE_SIZE = 3;
+    touchgfx::Unicode::UnicodeChar Main_TextTemperatureBuffer[MAIN_TEXTTEMPERATURE_SIZE];
+    static const uint16_t MAIN_TEXTILLUMINANCE_SIZE = 3;
+    touchgfx::Unicode::UnicodeChar Main_TextIlluminanceBuffer[MAIN_TEXTILLUMINANCE_SIZE];
 
 private:
 

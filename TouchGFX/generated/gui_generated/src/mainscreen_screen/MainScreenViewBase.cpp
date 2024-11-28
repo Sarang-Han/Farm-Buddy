@@ -87,6 +87,9 @@ MainScreenViewBase::MainScreenViewBase()
     Main_TextTemperature.setXY(467, 166);
     Main_TextTemperature.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     Main_TextTemperature.setLinespacing(0);
+    Unicode::snprintf(Main_TextTemperatureBuffer, MAIN_TEXTTEMPERATURE_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_OWVD).getText());
+    Main_TextTemperature.setWildcard(Main_TextTemperatureBuffer);
+    Main_TextTemperature.resizeToCurrentText();
     Main_TextTemperature.setTypedText(touchgfx::TypedText(T___SINGLEUSE_L6QC));
     swipeP1_Main.add(Main_TextTemperature);
 
@@ -97,6 +100,9 @@ MainScreenViewBase::MainScreenViewBase()
     Main_TextIlluminance.setXY(472, 228);
     Main_TextIlluminance.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     Main_TextIlluminance.setLinespacing(0);
+    Unicode::snprintf(Main_TextIlluminanceBuffer, MAIN_TEXTILLUMINANCE_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_11GT).getText());
+    Main_TextIlluminance.setWildcard(Main_TextIlluminanceBuffer);
+    Main_TextIlluminance.resizeToCurrentText();
     Main_TextIlluminance.setTypedText(touchgfx::TypedText(T___SINGLEUSE_Z61T));
     swipeP1_Main.add(Main_TextIlluminance);
 
@@ -121,6 +127,12 @@ MainScreenViewBase::MainScreenViewBase()
     happy_flower.setPosition(66, 120, 279, 264);
     happy_flower.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
     swipeP1_Main.add(happy_flower);
+
+    sad_flower.setBitmap(touchgfx::Bitmap(BITMAP_SAD_FLOWER_ID));
+    sad_flower.setPosition(58, 120, 295, 258);
+    sad_flower.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    sad_flower.setVisible(false);
+    swipeP1_Main.add(sad_flower);
 
     dynamicGraph1.setPosition(398, 297, 367, 142);
     dynamicGraph1.setScale(1);

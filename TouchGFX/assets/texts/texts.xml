@@ -6,6 +6,12 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_11GT" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_OWVD" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
       <Text Id="__SingleUse_RX2P" Alignment="Center" TypographyId="Typography_02">
         <Translation Language="GB">Water on</Translation>
       </Text>
@@ -40,10 +46,10 @@
         <Translation Language="GB">My BUDDY state :</Translation>
       </Text>
       <Text Id="__SingleUse_Z61T" Alignment="Center" TypographyId="Typography_02">
-        <Translation Language="GB">Illuminance :</Translation>
+        <Translation Language="GB">Illuminance : &lt;value&gt; C</Translation>
       </Text>
       <Text Id="__SingleUse_L6QC" Alignment="Center" TypographyId="Typography_02">
-        <Translation Language="GB">Temperature :</Translation>
+        <Translation Language="GB">Temperature : &lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_GFTR" Alignment="Left" TypographyId="Typography_02">
         <Translation Language="GB">STM32 Quest</Translation>
@@ -65,7 +71,7 @@
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Typography_00" Font="verdanab.ttf" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" />
     <Typography Id="Typography_01" Font="verdanab.ttf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Typography_02" Font="verdanab.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_02" Font="verdanab.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7e" />
     <Typography Id="Typography_03" Font="verdanab.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="-., 0123456789" />
   </Typographies>
 </TextDatabase>

@@ -779,7 +779,16 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void Send_UART_Message(uint8_t *buf, uint8_t size)
+{
+  HAL_UART_Transmit(&huart2, (uint8_t *)buf, size, 5000);
+}
 
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+  xQueueSendFromISR(msgQueueUARTtoUI, &pDataRx[0], 0);
+  HAL_UART_Receive_IT(&huart2, (uint8_t *)pDataRx, 1);
+}
 /* USER CODE END 4 */
 
 /**

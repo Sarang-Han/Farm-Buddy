@@ -130,7 +130,7 @@
                   },
                   {
                     "Type": "DigitalClock",
-                    "Name": "Main_ClockUpper",
+                    "Name": "digitalClock",
                     "X": 624,
                     "Y": 33,
                     "Width": 126,
@@ -140,11 +140,12 @@
                       "Green": 102,
                       "Blue": 75
                     },
-                    "TextId": "__SingleUse_LWT5",
+                    "TextId": "digitalClock",
                     "DisplaySeconds": true,
                     "DisplayLeadingZeroForHourIndicator": true,
-                    "InitialHour": 10,
-                    "InitialMinute": 10
+                    "InitialHour": 4,
+                    "InitialMinute": 10,
+                    "InitialSecond": 10
                   },
                   {
                     "Type": "TextArea",
@@ -216,8 +217,8 @@
                     "Type": "TextArea",
                     "Name": "Main_TextIlluminance",
                     "X": 472,
-                    "Y": 228,
-                    "Width": 190,
+                    "Y": 224,
+                    "Width": 169,
                     "Height": 24,
                     "TextId": "__SingleUse_Z61T",
                     "TextRotation": "0",

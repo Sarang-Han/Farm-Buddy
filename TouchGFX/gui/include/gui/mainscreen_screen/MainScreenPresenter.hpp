@@ -26,7 +26,6 @@ public:
     virtual void deactivate();
 
     virtual ~MainScreenPresenter() {}
-
 private:
     MainScreenPresenter();
 

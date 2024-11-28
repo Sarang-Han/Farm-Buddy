@@ -60,13 +60,13 @@ MainScreenViewBase::MainScreenViewBase()
     Main_Upper_Background.setAlpha(233);
     swipeP1_Main.add(Main_Upper_Background);
 
-    Main_ClockUpper.setPosition(624, 33, 126, 33);
-    Main_ClockUpper.setColor(touchgfx::Color::getColorFromRGB(74, 102, 75));
-    Main_ClockUpper.setTypedText(touchgfx::TypedText(T___SINGLEUSE_LWT5));
-    Main_ClockUpper.displayLeadingZeroForHourIndicator(true);
-    Main_ClockUpper.setDisplayMode(touchgfx::DigitalClock::DISPLAY_24_HOUR);
-    Main_ClockUpper.setTime24Hour(10, 10, 0);
-    swipeP1_Main.add(Main_ClockUpper);
+    digitalClock.setPosition(624, 33, 126, 33);
+    digitalClock.setColor(touchgfx::Color::getColorFromRGB(74, 102, 75));
+    digitalClock.setTypedText(touchgfx::TypedText(T_DIGITALCLOCK));
+    digitalClock.displayLeadingZeroForHourIndicator(true);
+    digitalClock.setDisplayMode(touchgfx::DigitalClock::DISPLAY_24_HOUR);
+    digitalClock.setTime24Hour(4, 10, 10);
+    swipeP1_Main.add(digitalClock);
 
     Main_TextUpper_Farmbuddy.setXY(293, 31);
     Main_TextUpper_Farmbuddy.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
@@ -97,7 +97,7 @@ MainScreenViewBase::MainScreenViewBase()
     Main_ImageIlluminance.setBitmap(touchgfx::Bitmap(BITMAP_ICON_THEME_IMAGES_IMAGE_BRIGHTNESS_6_40_40_F0C14A_SVG_ID));
     swipeP1_Main.add(Main_ImageIlluminance);
 
-    Main_TextIlluminance.setXY(472, 228);
+    Main_TextIlluminance.setXY(472, 224);
     Main_TextIlluminance.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     Main_TextIlluminance.setLinespacing(0);
     Unicode::snprintf(Main_TextIlluminanceBuffer, MAIN_TEXTILLUMINANCE_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_11GT).getText());

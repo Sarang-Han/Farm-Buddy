@@ -11,7 +11,12 @@ public:
     virtual ~MainScreenView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    virtual void handleTickEvent();
 protected:
+    int tickCounter;
+    int digitalHours;
+    int digitalMinutes;
+    int digitalSeconds;
 };
 
 #endif // MAINSCREENVIEW_HPP

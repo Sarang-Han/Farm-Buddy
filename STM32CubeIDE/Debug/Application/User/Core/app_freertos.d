@@ -52,7 +52,9 @@ Application/User/Core/app_freertos.o: \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h \
- ../../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h
+ ../../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h \
+ ../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+ ../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../../Core/Inc/FreeRTOSConfig.h:
 ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
@@ -106,3 +108,5 @@ Application/User/Core/app_freertos.o: \
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_ll_dlyb.h:
 ../../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h:
+../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
+../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:

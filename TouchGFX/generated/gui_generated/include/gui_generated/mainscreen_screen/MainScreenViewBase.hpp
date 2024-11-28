@@ -51,7 +51,7 @@ protected:
     touchgfx::Box Main_Sensor1;
     touchgfx::TextArea Main_TextSensor;
     touchgfx::Box Main_Upper_Background;
-    touchgfx::DigitalClock Main_ClockUpper;
+    touchgfx::DigitalClock digitalClock;
     touchgfx::TextArea Main_TextUpper_Farmbuddy;
     touchgfx::TextArea Main_TextUpper_Quest;
     touchgfx::Image Main_ImageThermo;

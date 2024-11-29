@@ -16,7 +16,7 @@
 #include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 #include <touchgfx/widgets/BoxWithBorder.hpp>
 #include <touchgfx/widgets/ScalableImage.hpp>
-#include <touchgfx/widgets/graph/GraphScroll.hpp>
+#include <touchgfx/widgets/graph/GraphWrapAndClear.hpp>
 #include <touchgfx/widgets/graph/GraphElements.hpp>
 #include <touchgfx/widgets/graph/GraphLabels.hpp>
 #include <touchgfx/widgets/canvas/PainterRGB565.hpp>
@@ -24,6 +24,7 @@
 #include <touchgfx/widgets/RadioButton.hpp>
 #include <touchgfx/widgets/RadioButtonGroup.hpp>
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
+#include <gui/containers/CustomContainer1.hpp>
 
 class MainScreenViewBase : public touchgfx::View<MainScreenPresenter>
 {
@@ -31,6 +32,18 @@ public:
     MainScreenViewBase();
     virtual ~MainScreenViewBase();
     virtual void setupScreen();
+
+    /*
+     * Virtual Action Handlers
+     */
+    virtual void graph1Clicked(AbstractDataGraph::GraphClickEvent value)
+    {
+        // Override and implement this function in MainScreen
+    }
+    virtual void graph1Dragged(AbstractDataGraph::GraphDragEvent value)
+    {
+        // Override and implement this function in MainScreen
+    }
 
 protected:
     FrontendApplication& application() {
@@ -63,7 +76,7 @@ protected:
     touchgfx::BoxWithBorder boxWithBorder1;
     touchgfx::ScalableImage happy_flower;
     touchgfx::ScalableImage sad_flower;
-    touchgfx::GraphScroll<75> dynamicGraph1;
+    touchgfx::GraphWrapAndClear<75> dynamicGraph1;
     touchgfx::GraphElementGridY dynamicGraph1MajorYAxisGrid;
     touchgfx::GraphLabelsX dynamicGraph1MajorXAxisLabel;
     touchgfx::GraphLabelsY dynamicGraph1MajorYAxisLabel;
@@ -85,6 +98,7 @@ protected:
     touchgfx::RadioButton radioButton2;
     touchgfx::ButtonWithLabel buttonWithLabel1;
     touchgfx::ButtonWithLabel buttonWithLabel1_1;
+    CustomContainer1 infoWidget1;
 
     /*
      * Wildcard Buffers
@@ -101,6 +115,18 @@ private:
      */
     static const uint32_t CANVAS_BUFFER_SIZE = 12000;
     uint8_t canvasBuffer[CANVAS_BUFFER_SIZE];
+
+    /*
+     * Callback Declarations
+     */
+    touchgfx::Callback<MainScreenViewBase, const touchgfx::AbstractDataGraph&, const touchgfx::AbstractDataGraph::GraphClickEvent&> graphClickedCallback;
+    touchgfx::Callback<MainScreenViewBase, const touchgfx::AbstractDataGraph&, const touchgfx::AbstractDataGraph::GraphDragEvent&> graphDraggedCallback;
+
+    /*
+     * Callback Handler Declarations
+     */
+    void graphClickedCallbackHandler(const touchgfx::AbstractDataGraph& src, const touchgfx::AbstractDataGraph::GraphClickEvent& value);
+    void graphDraggedCallbackHandler(const touchgfx::AbstractDataGraph& src, const touchgfx::AbstractDataGraph::GraphDragEvent& value);
 
 };
 

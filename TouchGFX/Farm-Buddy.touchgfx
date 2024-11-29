@@ -315,10 +315,15 @@
                     "LastIndex": 74,
                     "XAxisScale": 1.0,
                     "InsertRandomValues": true,
-                    "LabelSizeTop": 9,
-                    "LabelSizeBottom": 26,
-                    "LabelSizeLeft": 33,
-                    "GraphType": "GraphScroll",
+                    "LabelSizeTop": 16,
+                    "LabelSizeBottom": 23,
+                    "LabelSizeLeft": 31,
+                    "LabelSizeRight": 2,
+                    "PaddingTop": 1,
+                    "PaddingBottom": 2,
+                    "PaddingLeft": 7,
+                    "PaddingRight": 6,
+                    "GraphType": "GraphWrapClear",
                     "GraphDrawers": [
                       {
                         "Type": "LineDrawer",
@@ -588,12 +593,82 @@
                 ]
               }
             ]
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "infoWidget1",
+            "Y": -30,
+            "Width": 70,
+            "Height": 20,
+            "CustomContainerDefinitionName": "CustomContainer1"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerGraphClicked",
+              "TriggerComponent": "dynamicGraph1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "graph1Clicked"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerGraphDragged",
+              "TriggerComponent": "dynamicGraph1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "graph1Dragged"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "CustomContainer1",
+        "Width": 70,
+        "Height": 20,
+        "Components": [
+          {
+            "Type": "BoxWithBorder",
+            "Name": "boxWithBorder1",
+            "Width": 70,
+            "Height": 20,
+            "Color": {
+              "Red": 237,
+              "Green": 252,
+              "Blue": 250
+            },
+            "BorderColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderSize": 1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "Width": 70,
+            "Height": 20,
+            "TextId": "__SingleUse_YJMX",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "Wildcard1",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
           }
         ],
         "Interactions": []
       }
     ],
-    "CustomContainerDefinitions": [],
     "Name": "Farm-Buddy",
     "Resolution": {
       "Width": 800,

@@ -7,7 +7,9 @@
 #include <images/BitmapDatabase.hpp>
 #include <texts/TextKeysAndLanguages.hpp>
 
-MainScreenViewBase::MainScreenViewBase()
+MainScreenViewBase::MainScreenViewBase() :
+    graphClickedCallback(this, &MainScreenViewBase::graphClickedCallbackHandler),
+    graphDraggedCallback(this, &MainScreenViewBase::graphDraggedCallbackHandler)
 {
     touchgfx::CanvasWidgetRenderer::setupBuffer(canvasBuffer, CANVAS_BUFFER_SIZE);
     
@@ -137,9 +139,11 @@ MainScreenViewBase::MainScreenViewBase()
     dynamicGraph1.setPosition(398, 297, 367, 142);
     dynamicGraph1.setScale(1);
     dynamicGraph1.setGraphRangeX(0, 74);
-    dynamicGraph1.setGraphAreaMargin(9, 33, 0, 26);
-    dynamicGraph1.setGraphAreaPadding(0, 0, 0, 0);
+    dynamicGraph1.setGraphAreaMargin(16, 31, 2, 23);
+    dynamicGraph1.setGraphAreaPadding(1, 7, 6, 2);
     dynamicGraph1.setGraphRangeY(10, 40);
+    dynamicGraph1.setClickAction(graphClickedCallback);
+    dynamicGraph1.setDragAction(graphDraggedCallback);
     dynamicGraph1MajorYAxisGrid.setColor(touchgfx::Color::getColorFromRGB(20, 151, 197));
     dynamicGraph1MajorYAxisGrid.setInterval(10);
     dynamicGraph1MajorYAxisGrid.setLineWidth(1);
@@ -330,6 +334,9 @@ MainScreenViewBase::MainScreenViewBase()
 
     swipeContainer1.setSelectedPage(0);
     add(swipeContainer1);
+
+    infoWidget1.setXY(0, -30);
+    add(infoWidget1);
 }
 
 MainScreenViewBase::~MainScreenViewBase()
@@ -339,5 +346,27 @@ MainScreenViewBase::~MainScreenViewBase()
 
 void MainScreenViewBase::setupScreen()
 {
+    infoWidget1.initialize();
+}
 
+void MainScreenViewBase::graphClickedCallbackHandler(const touchgfx::AbstractDataGraph& src, const touchgfx::AbstractDataGraph::GraphClickEvent& value)
+{
+    if (&src == &dynamicGraph1)
+    {
+        //Interaction1
+        //When dynamicGraph1 clicked call virtual function
+        //Call graph1Clicked
+        graph1Clicked(value);
+    }
+}
+
+void MainScreenViewBase::graphDraggedCallbackHandler(const touchgfx::AbstractDataGraph& src, const touchgfx::AbstractDataGraph::GraphDragEvent& value)
+{
+    if (&src == &dynamicGraph1)
+    {
+        //Interaction2
+        //When dynamicGraph1 dragged call virtual function
+        //Call graph1Dragged
+        graph1Dragged(value);
+    }
 }

@@ -6,6 +6,12 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
+      <Text Id="Wildcard1" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">10</Translation>
+      </Text>
+      <Text Id="__SingleUse_YJMX" Alignment="Center" TypographyId="Typography_03">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
       <Text Id="__SingleUse_11GT" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">00</Translation>
       </Text>
@@ -71,7 +77,7 @@
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Typography_00" Font="verdanab.ttf" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" />
     <Typography Id="Typography_01" Font="verdanab.ttf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Typography_02" Font="verdanab.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="." WildcardCharacterRanges="0x20-0x7e" />
-    <Typography Id="Typography_03" Font="verdanab.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="-., 0123456789" />
+    <Typography Id="Typography_02" Font="verdanab.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="1234567890" WildcardCharacterRanges="0x20-0x7e" />
+    <Typography Id="Typography_03" Font="verdanab.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789" WidgetWildcardCharacters="-., 0123456789" />
   </Typographies>
 </TextDatabase>

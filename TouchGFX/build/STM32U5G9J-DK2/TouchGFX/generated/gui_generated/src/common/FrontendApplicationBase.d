@@ -64,7 +64,7 @@ TouchGFX/build/STM32U5G9J-DK2/TouchGFX/generated/gui_generated/src/common/Fronte
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/BoxWithBorder.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/graph/GraphScroll.hpp \
+ Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/graph/GraphWrapAndClear.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/graph/AbstractDataGraph.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRUtil.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp \
@@ -88,6 +88,8 @@ TouchGFX/build/STM32U5G9J-DK2/TouchGFX/generated/gui_generated/src/common/Fronte
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp \
+ TouchGFX/gui/include/gui/containers/CustomContainer1.hpp \
+ TouchGFX/generated/gui_generated/include/gui_generated/containers/CustomContainer1Base.hpp \
  TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp
 
 TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:
@@ -218,7 +220,7 @@ Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/BoxWithBorder.hpp:
 
 Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:
 
-Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/graph/GraphScroll.hpp:
+Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/graph/GraphWrapAndClear.hpp:
 
 Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/graph/AbstractDataGraph.hpp:
 
@@ -265,5 +267,9 @@ Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp:
 Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:
 
 Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:
+
+TouchGFX/gui/include/gui/containers/CustomContainer1.hpp:
+
+TouchGFX/generated/gui_generated/include/gui_generated/containers/CustomContainer1Base.hpp:
 
 TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:

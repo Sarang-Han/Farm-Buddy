@@ -70,7 +70,7 @@ TouchGFX/build/STM32U5G9J-DK2/TouchGFX/Target/generated/TouchGFXGeneratedHAL.o: 
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/BoxWithBorder.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp \
- Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/graph/GraphScroll.hpp \
+ Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/graph/GraphWrapAndClear.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/graph/AbstractDataGraph.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRUtil.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp \
@@ -94,6 +94,8 @@ TouchGFX/build/STM32U5G9J-DK2/TouchGFX/Target/generated/TouchGFXGeneratedHAL.o: 
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp \
+ TouchGFX/gui/include/gui/containers/CustomContainer1.hpp \
+ TouchGFX/generated/gui_generated/include/gui_generated/containers/CustomContainer1Base.hpp \
  Middlewares/ST/touchgfx/framework/include/touchgfx/hal/GPIO.hpp \
  Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/include/touchgfx_nema/GPU2DVectorRenderer.hpp \
  TouchGFX/Target/generated/HardwareMJPEGDecoder.hpp \
@@ -137,6 +139,8 @@ TouchGFX/build/STM32U5G9J-DK2/TouchGFX/Target/generated/TouchGFXGeneratedHAL.o: 
  Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr_ex.h \
  Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_tim.h \
  Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_tim_ex.h \
+ Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart.h \
+ Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart_ex.h \
  Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h \
  Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h \
  Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
@@ -282,7 +286,7 @@ Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/BoxWithBorder.hpp:
 
 Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:
 
-Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/graph/GraphScroll.hpp:
+Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/graph/GraphWrapAndClear.hpp:
 
 Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/graph/AbstractDataGraph.hpp:
 
@@ -329,6 +333,10 @@ Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp:
 Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:
 
 Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:
+
+TouchGFX/gui/include/gui/containers/CustomContainer1.hpp:
+
+TouchGFX/generated/gui_generated/include/gui_generated/containers/CustomContainer1Base.hpp:
 
 Middlewares/ST/touchgfx/framework/include/touchgfx/hal/GPIO.hpp:
 
@@ -419,6 +427,10 @@ Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_pwr_ex.h:
 Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_tim.h:
 
 Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_tim_ex.h:
+
+Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart.h:
+
+Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_uart_ex.h:
 
 Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_exti.h:
 

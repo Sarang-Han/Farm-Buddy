@@ -372,6 +372,14 @@
                       "TextRotation": "0",
                       "Position": "Left"
                     }
+                  },
+                  {
+                    "Type": "CustomContainerInstance",
+                    "Name": "infoWidget1",
+                    "Y": -30,
+                    "Width": 70,
+                    "Height": 20,
+                    "CustomContainerDefinitionName": "CustomContainer1"
                   }
                 ]
               },
@@ -593,14 +601,6 @@
                 ]
               }
             ]
-          },
-          {
-            "Type": "CustomContainerInstance",
-            "Name": "infoWidget1",
-            "Y": -30,
-            "Width": 70,
-            "Height": 20,
-            "CustomContainerDefinitionName": "CustomContainer1"
           }
         ],
         "Interactions": [

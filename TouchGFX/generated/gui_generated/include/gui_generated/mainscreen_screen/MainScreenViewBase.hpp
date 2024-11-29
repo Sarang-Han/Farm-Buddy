@@ -20,11 +20,11 @@
 #include <touchgfx/widgets/graph/GraphElements.hpp>
 #include <touchgfx/widgets/graph/GraphLabels.hpp>
 #include <touchgfx/widgets/canvas/PainterRGB565.hpp>
+#include <gui/containers/CustomContainer1.hpp>
 #include <touchgfx/widgets/ToggleButton.hpp>
 #include <touchgfx/widgets/RadioButton.hpp>
 #include <touchgfx/widgets/RadioButtonGroup.hpp>
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
-#include <gui/containers/CustomContainer1.hpp>
 
 class MainScreenViewBase : public touchgfx::View<MainScreenPresenter>
 {
@@ -82,6 +82,7 @@ protected:
     touchgfx::GraphLabelsY dynamicGraph1MajorYAxisLabel;
     touchgfx::GraphElementLine dynamicGraph1Line1;
     touchgfx::PainterRGB565 dynamicGraph1Line1Painter;
+    CustomContainer1 infoWidget1;
     touchgfx::Container swipeP2_Ctrl;
     touchgfx::Image Control_Wallpaper;
     touchgfx::Box Ctrl_Upper_Background;
@@ -98,7 +99,6 @@ protected:
     touchgfx::RadioButton radioButton2;
     touchgfx::ButtonWithLabel buttonWithLabel1;
     touchgfx::ButtonWithLabel buttonWithLabel1_1;
-    CustomContainer1 infoWidget1;
 
     /*
      * Wildcard Buffers

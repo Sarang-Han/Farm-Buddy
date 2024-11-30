@@ -22,8 +22,6 @@
 #include <touchgfx/widgets/canvas/PainterRGB565.hpp>
 #include <gui/containers/CustomContainer1.hpp>
 #include <touchgfx/widgets/ToggleButton.hpp>
-#include <touchgfx/widgets/RadioButton.hpp>
-#include <touchgfx/widgets/RadioButtonGroup.hpp>
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
 
 class MainScreenViewBase : public touchgfx::View<MainScreenPresenter>
@@ -89,16 +87,12 @@ protected:
     touchgfx::TextArea Ctrl_TextUpper_Farmbuddy;
     touchgfx::ToggleButton Temperature_toggle;
     touchgfx::TextArea Control_temperature;
-    touchgfx::ToggleButton Humidity_toggle;
+    touchgfx::ToggleButton Humidity_toggle_1;
     touchgfx::TextArea Control_watersupply;
     touchgfx::TextArea Control_wateramount;
-    touchgfx::TextArea Control_wateramount_1;
-    touchgfx::TextArea Control_wateramount_1_1;
-    touchgfx::RadioButtonGroup<2> radioButtonGroup1;
-    touchgfx::RadioButton radioButton1;
-    touchgfx::RadioButton radioButton2;
-    touchgfx::ButtonWithLabel buttonWithLabel1;
     touchgfx::ButtonWithLabel buttonWithLabel1_1;
+    touchgfx::ButtonWithLabel buttonWithLabel1;
+    touchgfx::TextArea textArea2;
 
     /*
      * Wildcard Buffers

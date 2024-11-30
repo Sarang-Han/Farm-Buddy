@@ -6,6 +6,15 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_AU1Q" Alignment="Left" TypographyId="Typography_04">
+        <Translation Language="GB">*Light will automatically turn on in the dark</Translation>
+      </Text>
+      <Text Id="__SingleUse_OATC" Alignment="Center" TypographyId="Typography_02">
+        <Translation Language="GB">50ml</Translation>
+      </Text>
+      <Text Id="__SingleUse_9FYM" Alignment="Center" TypographyId="Typography_02">
+        <Translation Language="GB">100ml</Translation>
+      </Text>
       <Text Id="Wildcard1" Alignment="Left" TypographyId="Typography_02">
         <Translation Language="GB">10</Translation>
       </Text>
@@ -18,25 +27,13 @@
       <Text Id="__SingleUse_OWVD" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">00</Translation>
       </Text>
-      <Text Id="__SingleUse_RX2P" Alignment="Center" TypographyId="Typography_02">
-        <Translation Language="GB">Water on</Translation>
+      <Text Id="__SingleUse_5NUH" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">Watering</Translation>
       </Text>
-      <Text Id="__SingleUse_I0KE" Alignment="Center" TypographyId="Typography_02">
-        <Translation Language="GB">LED on</Translation>
+      <Text Id="__SingleUse_M09D" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">LED light</Translation>
       </Text>
-      <Text Id="__SingleUse_OOFZ" Alignment="Center" TypographyId="Typography_02">
-        <Translation Language="GB">5 sec</Translation>
-      </Text>
-      <Text Id="__SingleUse_MXXJ" Alignment="Center" TypographyId="Typography_02">
-        <Translation Language="GB">2 sec</Translation>
-      </Text>
-      <Text Id="__SingleUse_5NUH" Alignment="Center" TypographyId="Typography_01">
-        <Translation Language="GB">Watering Time</Translation>
-      </Text>
-      <Text Id="__SingleUse_M09D" Alignment="Center" TypographyId="Typography_01">
-        <Translation Language="GB">Auto Water Refill</Translation>
-      </Text>
-      <Text Id="__SingleUse_Q8PK" Alignment="Center" TypographyId="Typography_01">
+      <Text Id="__SingleUse_Q8PK" Alignment="Left" TypographyId="Typography_01">
         <Translation Language="GB">Temperature Alert</Translation>
       </Text>
       <Text Id="__SingleUse_3Y5F" Alignment="Center" TypographyId="Typography_01">
@@ -79,5 +76,6 @@
     <Typography Id="Typography_01" Font="verdanab.ttf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Typography_02" Font="verdanab.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="1234567890" WildcardCharacterRanges="0x20-0x7e" />
     <Typography Id="Typography_03" Font="verdanab.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789" WidgetWildcardCharacters="-., 0123456789" />
+    <Typography Id="Typography_04" Font="Nirmala.ttf" Size="18" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
   </Typographies>
 </TextDatabase>

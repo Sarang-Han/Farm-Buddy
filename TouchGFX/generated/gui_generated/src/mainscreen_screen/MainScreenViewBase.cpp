@@ -267,75 +267,57 @@ MainScreenViewBase::MainScreenViewBase() :
     Ctrl_TextUpper_Farmbuddy.setTypedText(touchgfx::TypedText(T___SINGLEUSE_3Y5F));
     swipeP2_Ctrl.add(Ctrl_TextUpper_Farmbuddy);
 
-    Temperature_toggle.setXY(540, 120);
+    Temperature_toggle.setXY(540, 130);
     Temperature_toggle.setBitmaps(touchgfx::Bitmap(BITMAP_CLAY_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_LARGE_ROUNDED_TEXT_ON_DARK_ID), touchgfx::Bitmap(BITMAP_CLAY_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_LARGE_ROUNDED_TEXT_OFF_NORMAL_ID));
     swipeP2_Ctrl.add(Temperature_toggle);
 
-    Control_temperature.setPosition(97, 140, 367, 40);
+    Control_temperature.setPosition(127, 141, 324, 38);
     Control_temperature.setColor(touchgfx::Color::getColorFromRGB(74, 102, 75));
     Control_temperature.setLinespacing(0);
     Control_temperature.setTypedText(touchgfx::TypedText(T___SINGLEUSE_Q8PK));
     swipeP2_Ctrl.add(Control_temperature);
 
-    Humidity_toggle.setXY(542, 200);
-    Humidity_toggle.setBitmaps(touchgfx::Bitmap(BITMAP_CLAY_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_LARGE_ROUNDED_TEXT_ON_DARK_ID), touchgfx::Bitmap(BITMAP_CLAY_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_LARGE_ROUNDED_TEXT_OFF_NORMAL_ID));
-    swipeP2_Ctrl.add(Humidity_toggle);
+    Humidity_toggle_1.setXY(540, 239);
+    Humidity_toggle_1.setBitmaps(touchgfx::Bitmap(BITMAP_CLAY_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_LARGE_ROUNDED_TEXT_ON_DARK_ID), touchgfx::Bitmap(BITMAP_CLAY_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_LARGE_ROUNDED_TEXT_OFF_NORMAL_ID));
+    swipeP2_Ctrl.add(Humidity_toggle_1);
 
-    Control_watersupply.setPosition(82, 211, 367, 38);
+    Control_watersupply.setPosition(127, 248, 198, 37);
     Control_watersupply.setColor(touchgfx::Color::getColorFromRGB(74, 102, 75));
     Control_watersupply.setLinespacing(0);
     Control_watersupply.setTypedText(touchgfx::TypedText(T___SINGLEUSE_M09D));
     swipeP2_Ctrl.add(Control_watersupply);
 
-    Control_wateramount.setPosition(58, 287, 367, 43);
+    Control_wateramount.setPosition(127, 363, 277, 46);
     Control_wateramount.setColor(touchgfx::Color::getColorFromRGB(74, 102, 75));
     Control_wateramount.setLinespacing(0);
     Control_wateramount.setTypedText(touchgfx::TypedText(T___SINGLEUSE_5NUH));
     swipeP2_Ctrl.add(Control_wateramount);
 
-    Control_wateramount_1.setPosition(464, 295, 77, 26);
-    Control_wateramount_1.setColor(touchgfx::Color::getColorFromRGB(74, 102, 75));
-    Control_wateramount_1.setLinespacing(0);
-    Control_wateramount_1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_MXXJ));
-    swipeP2_Ctrl.add(Control_wateramount_1);
+    buttonWithLabel1_1.setXY(465, 359);
+    buttonWithLabel1_1.setBitmaps(touchgfx::Bitmap(BITMAP_DARK_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_TINY_ROUNDED_INACTIVE_ID), touchgfx::Bitmap(BITMAP_DARK_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_TINY_ROUNDED_INACTIVE_ID));
+    buttonWithLabel1_1.setLabelText(touchgfx::TypedText(T___SINGLEUSE_OATC));
+    buttonWithLabel1_1.setLabelColor(touchgfx::Color::getColorFromRGB(105, 119, 145));
+    buttonWithLabel1_1.setLabelColorPressed(touchgfx::Color::getColorFromRGB(50, 57, 69));
+    buttonWithLabel1_1.setAlpha(180);
+    swipeP2_Ctrl.add(buttonWithLabel1_1);
 
-    Control_wateramount_1_1.setPosition(597, 295, 77, 26);
-    Control_wateramount_1_1.setColor(touchgfx::Color::getColorFromRGB(74, 102, 75));
-    Control_wateramount_1_1.setLinespacing(0);
-    Control_wateramount_1_1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_OOFZ));
-    swipeP2_Ctrl.add(Control_wateramount_1_1);
-
-    radioButton1.setXY(674, 290);
-    radioButton1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_RADIOBUTTON_RADIO_MEDIUM_ROUNDED_OFF_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_RADIOBUTTON_RADIO_MEDIUM_ROUNDED_OFF_PRESSED_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_RADIOBUTTON_RADIO_MEDIUM_ROUNDED_ON_DARK_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_RADIOBUTTON_RADIO_MEDIUM_ROUNDED_ON_PRESSED_ID));
-    radioButton1.setSelected(false);
-    radioButton1.setDeselectionEnabled(false);
-    radioButtonGroup1.add(radioButton1);
-    swipeP2_Ctrl.add(radioButton1);
-
-    radioButton2.setXY(541, 290);
-    radioButton2.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_RADIOBUTTON_RADIO_MEDIUM_ROUNDED_OFF_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_RADIOBUTTON_RADIO_MEDIUM_ROUNDED_OFF_PRESSED_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_RADIOBUTTON_RADIO_MEDIUM_ROUNDED_ON_DARK_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_RADIOBUTTON_RADIO_MEDIUM_ROUNDED_ON_PRESSED_ID));
-    radioButton2.setSelected(false);
-    radioButton2.setDeselectionEnabled(false);
-    radioButtonGroup1.add(radioButton2);
-    swipeP2_Ctrl.add(radioButton2);
-
-    buttonWithLabel1.setXY(121, 364);
-    buttonWithLabel1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_PRESSED_ID));
-    buttonWithLabel1.setLabelText(touchgfx::TypedText(T___SINGLEUSE_I0KE));
-    buttonWithLabel1.setLabelColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
-    buttonWithLabel1.setLabelColorPressed(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    buttonWithLabel1.setXY(600, 359);
+    buttonWithLabel1.setBitmaps(touchgfx::Bitmap(BITMAP_DARK_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_TINY_ROUNDED_INACTIVE_ID), touchgfx::Bitmap(BITMAP_DARK_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_TINY_ROUNDED_INACTIVE_ID));
+    buttonWithLabel1.setLabelText(touchgfx::TypedText(T___SINGLEUSE_9FYM));
+    buttonWithLabel1.setLabelColor(touchgfx::Color::getColorFromRGB(105, 119, 145));
+    buttonWithLabel1.setLabelColorPressed(touchgfx::Color::getColorFromRGB(50, 57, 69));
+    buttonWithLabel1.setAlpha(180);
     swipeP2_Ctrl.add(buttonWithLabel1);
 
-    buttonWithLabel1_1.setXY(472, 364);
-    buttonWithLabel1_1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_PRESSED_ID));
-    buttonWithLabel1_1.setLabelText(touchgfx::TypedText(T___SINGLEUSE_RX2P));
-    buttonWithLabel1_1.setLabelColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
-    buttonWithLabel1_1.setLabelColorPressed(touchgfx::Color::getColorFromRGB(255, 255, 255));
-    swipeP2_Ctrl.add(buttonWithLabel1_1);
+    textArea2.setPosition(127, 288, 345, 23);
+    textArea2.setColor(touchgfx::Color::getColorFromRGB(18, 43, 31));
+    textArea2.setLinespacing(0);
+    textArea2.setTypedText(touchgfx::TypedText(T___SINGLEUSE_AU1Q));
+    swipeP2_Ctrl.add(textArea2);
 
     swipeContainer1.add(swipeP2_Ctrl);
 
-    swipeContainer1.setSelectedPage(0);
+    swipeContainer1.setSelectedPage(1);
     add(swipeContainer1);
 }
 
